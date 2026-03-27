@@ -21,9 +21,6 @@ Modern responsive website for car buying and renting.
 * CSS
 * JavaScript
 
-## 📸 Preview
-
-![Preview](./assets/land.png)
 
 ## 📂 Structure
 
