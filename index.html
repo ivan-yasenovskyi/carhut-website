@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarHut - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <img src="./assets/land.png" class="land-image" alt="image" />
+
+    <header class="header">
+      <div class="container header-container">
+        <a href="#" class="logo">
+          <i class="fa-solid fa-car-side"></i>
+          <span>CarHut</span>
+        </a>
+        <nav class="navbar-center">
+          <a href="#home" class="nav-item">Home</a>
+          <a href="#listings" class="nav-item">Listings</a>
+          <a href="#" id="open-calc-btn" class="nav-item">Rent Calculator</a>
+          <a href="#about" class="nav-item">About</a>
+          <a href="#contact" class="nav-item">Contact</a>
+        </nav>
+        <div class="navbar-actions">
+          <div class="sign-in">
+            <i class="fa-solid fa-user"></i>
+            <a href="#">Sign in</a>
+          </div>
+          <button class="btn-primary">Submit Listing</button>
+          <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="hero-content" id="home">
+        <div class="hero-sub">
+          <p>Find cars for sale and for rent near you</p>
+        </div>
+        <div class="hero-title">
+          <h1>
+            <span class="counter" data-target="4675">0</span> Vehicles <br />
+            Available
+          </h1>
+        </div>
+        <div class="hero-actions">
+          <button class="view">View Inventory</button>
+          <button class="contact">Contact Us</button>
+        </div>
+        <div class="models-hero">
+          <p class="browse-model">Or Browse Featured Model</p>
+          <div class="models">
+            <button class="models-item">
+              <img src="./assets/suv.svg" alt="image" />SUV
+            </button>
+            <button class="models-item">
+              <img src="./assets/sedan.svg" alt="image" />Sedan
+            </button>
+            <button class="models-item">
+              <img src="./assets/hatch.svg" alt="image" />Hatchback
+            </button>
+            <button class="models-item">
+              <img src="./assets/coupe.svg" alt="image" />Coupe
+            </button>
+            <button class="models-item">
+              <img src="./assets/hyb.svg" alt="image" />Hybrid
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <main class="main-section">
+        <div class="main-header">
+          <h2 class="main-title">Explore Our Premium Brands</h2>
+          <a href="#" class="main-show">Show All Brands ↗</a>
+        </div>
+        <div class="main-brands">
+          <div class="brand-card">
+            <img src="./assets/audi.png" alt="image" />
+            <p class="brands-item">Audi</p>
+          </div>
+          <div class="brand-card">
+            <img src="./assets/bmw.png" alt="image" />
+            <p class="brands-item">Bmw</p>
+          </div>
+          <div class="brand-card">
+            <img src="./assets/ford.png" alt="image" />
+            <p class="brands-item">Ford</p>
+          </div>
+          <div class="brand-card">
+            <img src="./assets/merc.png" alt="image" />
+            <p class="brands-item">Mercedes</p>
+          </div>
+          <div class="brand-card">
+            <img src="./assets/peg.png" alt="image" />
+            <p class="brands-item">Peugeot</p>
+          </div>
+          <div class="brand-card">
+            <img src="./assets/volk.png" alt="image" />
+            <p class="brands-item">Volkswagen</p>
+          </div>
+        </div>
+
+        <div class="service-section" id="blog">
+          <h2 class="services-title">Our Services</h2>
+          <div class="services-cards">
+            <div class="service-card">
+              <img src="/assets/card1.png" alt="image" />
+              <h3 class="service-title">2024 BMW ALPINA XB7 with exclusive…</h3>
+              <p class="service-subtitle">
+                Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan
+                nec.
+              </p>
+              <button class="service-button">View ↗</button>
+            </div>
+            <div class="service-card">
+              <img src="/assets/card2.png" alt="image" />
+              <h3 class="service-title">
+                BMW X6 M50i is designed to exceed your…
+              </h3>
+              <p class="service-subtitle">
+                Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan
+                nec.
+              </p>
+              <button class="service-button">View ↗</button>
+            </div>
+            <div class="service-card">
+              <img src="/assets/card3.png" alt="image" />
+              <h3 class="service-title">
+                BMW X5 Gold 2024 Sport Review: Light o…
+              </h3>
+              <p class="service-subtitle">
+                Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan
+                nec.
+              </p>
+              <button class="service-button">View ↗</button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section class="advices-section">
+        <div class="advise-photo">
+          <img src="/assets/background (2).png" alt="image" />
+        </div>
+        <div class="advise-text">
+          <div class="advise-header">
+            <h3>
+              Get A Fair Price For Your <br />
+              Car Sell To Us Today
+            </h3>
+            <p class="advise-sub-text">
+              We are committed to providing our customers with exceptional
+              service, competitive pricing, and a wide range of.
+            </p>
+          </div>
+          <div class="advise-list">
+            <div class="list-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <p>
+                We are the UK’s largest provider, with more patrols in more
+                places
+              </p>
+            </div>
+            <div class="list-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <p>You get 24/7 roadside assistance</p>
+            </div>
+            <div class="list-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <p>We fix 4 out of 5 cars at the roadside</p>
+            </div>
+          </div>
+          <button class="advise-btn">Get Started ↗</button>
+        </div>
+      </section>
+
+      <section class="amount-reviews">
+        <div class="rev">
+          <div class="number-wrapper">
+            <span class="reviews-title counter" data-target="836">0</span>
+            <span class="reviews-title">M</span>
+          </div>
+          <p class="reviews-sub">cars for sale</p>
+        </div>
+        <div class="rev">
+          <div class="number-wrapper">
+            <span class="reviews-title counter" data-target="738">0</span>
+            <span class="reviews-title">M</span>
+          </div>
+          <p class="reviews-sub">dealer reviews</p>
+        </div>
+        <div class="rev">
+          <div class="number-wrapper">
+            <span class="reviews-title counter" data-target="100">0</span>
+            <span class="reviews-title">M</span>
+          </div>
+          <p class="reviews-sub">visitors per day</p>
+        </div>
+        <div class="rev">
+          <div class="number-wrapper">
+            <span class="reviews-title counter" data-target="238">0</span>
+            <span class="reviews-title">M</span>
+          </div>
+          <p class="reviews-sub">verified dealers</p>
+        </div>
+      </section>
+
+      <section class="header header-cards" id="listings">
+        <div class="header-title">
+          <h2>Featured Listings</h2>
+        </div>
+        <div class="view-all">
+          <a href="#">View All↗</a>
+        </div>
+      </section>
+
+      <section class="menu-cars">
+        <a href="#">In Stock</a>
+        <a href="#">New Cars</a>
+        <a href="#">Used Cars</a>
+      </section>
+
+      <section class="jeep-cards">
+        <div class="jeep-card" data-categories="petrol suv">
+          <div class="image-wrapper">
+            <img src="/assets/690.png" alt="image" />
+            <i class="fa-solid fa-bookmark"></i>
+          </div>
+          <div class="jeep-card-txt">
+            <h3>T-Cross - 2023</h3>
+            <p>4.0 D5 PowerPulse Momentum 5dr AW… Geartronic Estate</p>
+          </div>
+          <div class="icons-feat">
+            <div class="miles">
+              <i class="fa-solid fa-gauge-high" style="color: #050b20"></i>
+              <p>15 Miles</p>
+            </div>
+            <div class="petrol">
+              <i class="fa-solid fa-gas-pump" style="color: #050b20"></i>
+              <p>Petrol</p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-box" style="color: #050b20"></i>
+              <p>CVT</p>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="price-det">
+            <p>$15,000</p>
+            <a href="#">View Details ↗</a>
+          </div>
+        </div>
+
+        <div class="jeep-card" data-categories="petrol automatic sedan">
+          <div class="image-wrapper">
+            <img src="/assets/694.png" alt="image" />
+            <i class="fa-solid fa-bookmark"></i>
+          </div>
+          <div class="jeep-card-txt">
+            <h3>C-Class – 2023</h3>
+            <p>4.0 D5 PowerPulse Momentum 5dr AW… Geartronic Estate</p>
+          </div>
+          <div class="icons-feat">
+            <div class="miles">
+              <i class="fa-solid fa-gauge-high" style="color: #050b20"></i>
+              <p>50 Miles</p>
+            </div>
+            <div class="petrol">
+              <i class="fa-solid fa-gas-pump" style="color: #050b20"></i>
+              <p>Petrol</p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-box" style="color: #050b20"></i>
+              <p>Automatic</p>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="price-det">
+            <p>$150,000</p>
+            <a href="#">View Details ↗</a>
+          </div>
+        </div>
+
+        <div class="jeep-card" data-categories="diesel manual truck">
+          <div class="image-wrapper">
+            <img src="/assets/car13-660x440.jpg.png" alt="image" />
+            <i class="fa-solid fa-bookmark"></i>
+            <span class="ford-span">Great Price</span>
+          </div>
+          <div class="jeep-card-txt">
+            <h3>Ford Transit – 2021</h3>
+            <p>4.0 D5 PowerPulse Momentum 5dr AW… Geartronic Estate</p>
+          </div>
+          <div class="icons-feat">
+            <div class="miles">
+              <i class="fa-solid fa-gauge-high" style="color: #050b20"></i>
+              <p>2500 Miles</p>
+            </div>
+            <div class="petrol">
+              <i class="fa-solid fa-gas-pump" style="color: #050b20"></i>
+              <p>Diesel</p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-box" style="color: #050b20"></i>
+              <p>Manual</p>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="price-det">
+            <p>$22,000</p>
+            <a href="#">View Details ↗</a>
+          </div>
+        </div>
+
+        <div class="jeep-card" data-categories="petrol automatic suv">
+          <div class="image-wrapper">
+            <img src="/assets/703.png" alt="image" />
+            <i class="fa-solid fa-bookmark"></i>
+            <span class="glc-span">Low Mileage</span>
+          </div>
+          <div class="jeep-card-txt">
+            <h3>New GLC – 2023</h3>
+            <p>4.0 D5 PowerPulse Momentum 5dr AW… Geartronic Estate</p>
+          </div>
+          <div class="icons-feat">
+            <div class="miles">
+              <i class="fa-solid fa-gauge-high" style="color: #050b20"></i>
+              <p>50 Miles</p>
+            </div>
+            <div class="petrol">
+              <i class="fa-solid fa-gas-pump" style="color: #050b20"></i>
+              <p>Petrol</p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-box" style="color: #050b20"></i>
+              <p>Automatic</p>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="price-det">
+            <p>$95,000</p>
+            <a href="#">View Details ↗</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="search-section-wrapper">
+      <div class="search-section">
+        <div class="search-txt-btn">
+          <img src="/assets/search.svg.png" alt="search-icon" />
+          <div class="search-txt">
+            <h2 class="search-title">Search over 150,000 vehicles</h2>
+            <p class="search-sub">
+              Choose from thousands of trusted used cars and vans across <br />
+              the UK, from our national network of vetted dealers.
+            </p>
+          </div>
+          <div class="search-buttons">
+            <button class="search-cars">Search Cars ↗</button>
+            <button class="search-vans">Search Vans ↗</button>
+          </div>
+        </div>
+        <div class="browse-types">
+          <div class="browse-txt">
+            <p>Or browse by type:</p>
+          </div>
+          <div class="browse-btns">
+            <button class="browse-btns-item active" data-filter="all">
+              All Cars
+            </button>
+            <button class="browse-btns-item" data-filter="automatic">
+              Automatics
+            </button>
+            <button class="browse-btns-item" data-filter="suv">SUVs</button>
+            <button class="browse-btns-item" data-filter="electric">
+              Electric
+            </button>
+            <button class="browse-btns-item" data-filter="petrol">
+              Petrol
+            </button>
+            <button class="browse-btns-item" data-filter="diesel">
+              Diesel
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-2">
+      <section class="choose-feaut" id="about">
+        <div class="choose-header">
+          <h2>Why Choose Us?</h2>
+        </div>
+        <div class="feaut-box">
+          <div class="box-1">
+            <img src="/assets/f1.svg fill.png" alt="feature-1" />
+            <h3>Special Financing Offers</h3>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
+          <div class="box-1">
+            <img src="/assets/f2.svg fill.png" alt="feature-2" />
+            <h3>Trusted Car Dealership</h3>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
+          <div class="box-1">
+            <img src="/assets/f3.svg.png" alt="feature-3" />
+            <h3>Transparent Pricing</h3>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
+          <div class="box-1">
+            <img src="/assets/f4.svg fill.png" alt="feature-4" />
+            <h3>Expert Car Service</h3>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="customers-header">
+          <h2>What our customers say</h2>
+          <p>
+            Rated 4.7 / 5 based on 28,370 reviews Showing our 4 & 5 star reviews
+          </p>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="customer-card">
+                <div class="customer-card-header">
+                  <h3>Great Work</h3>
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="customer-review">
+                  <p>
+                    “Amazing design, easy to customize and a design quality
+                    superlative account on its cloud platform for the optimized
+                    performance. And we didn’t on our original designs.”
+                  </p>
+                </div>
+                <div class="customer-profile">
+                  <img src="/assets/cust1.png" alt="customer-1" />
+                  <div class="profile-info">
+                    <h4>Leslie Alexander</h4>
+                    <p>Facebook</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="customer-card">
+                <div class="customer-card-header">
+                  <h3>Awesome Design</h3>
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="customer-review">
+                  <p>
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam sed do eiusmod”
+                  </p>
+                </div>
+                <div class="customer-profile">
+                  <img src="/assets/cust2.png" alt="customer-2" />
+                  <div class="profile-info">
+                    <h4>Floyd Miles</h4>
+                    <p>Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="customer-card">
+                <div class="customer-card-header">
+                  <h3>Good Job</h3>
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="customer-review">
+                  <p>
+                    “But I must explain to you how all this mistaken idea of
+                    denouncing pleasure and praising pain was born and I will
+                    give you a complete account of the system.”
+                  </p>
+                </div>
+                <div class="customer-profile">
+                  <img src="/assets/cust3.png" alt="customer-3" />
+                  <div class="profile-info">
+                    <h4>Dianne Russell</h4>
+                    <p>Marketing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="customer-card">
+                <div class="customer-card-header">
+                  <h3>Super Fast!</h3>
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="customer-review">
+                  <p>
+                    “Bought my dream car in less than 2 hours. The team was
+                    extremely helpful and the process was seamless. Highly
+                    recommend this dealership to everyone!”
+                  </p>
+                </div>
+                <div class="customer-profile">
+                  <img src="/assets/team1.jpg.png" alt="customer-4" />
+                  <div class="profile-info">
+                    <h4>Mark Johnson</h4>
+                    <p>Entrepreneur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="team-header">
+          <h3>Our Team</h3>
+          <a href="#">View All ↗</a>
+        </div>
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="./assets/team1.jpg.png" alt="Courtney Henry" />
+            <div class="team-info">
+              <h3>Courtney Henry</h3>
+              <p>Development Manager</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <img src="./assets/team2.jpg.png" alt="Jerome Bell" />
+            <div class="team-info">
+              <h3>Jerome Bell</h3>
+              <p class="highlight-blue">Software Tester</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <img src="./assets/team3.jpg.png" alt="Arlene McCoy" />
+            <div class="team-info">
+              <h3>Arlene McCoy</h3>
+              <p>Software Developer</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <img src="./assets/team4.jpg.png" alt="Jenny Wilson" />
+            <div class="team-info">
+              <h3>Jenny Wilson</h3>
+              <p>UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="map-section" id="contact">
+      <div class="container">
+        <div class="get-in">
+          <h3>Get in Touch</h3>
+          <p class="contact-desc">Contact our Sales Departament</p>
+          <div class="phone-box">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <span>+76 956 039 999</span>
+          </div>
+          <div class="schedule">
+            <p>Monday: 9:00-13:00</p>
+            <p>Tuesday: 9:00-13:00</p>
+            <p>Wednesday: 9:00-13:00</p>
+            <p>Thursday: 9:00-13:00</p>
+            <p>Friday: 9:00-13:00</p>
+            <p>Saturday: 9:00-13:00</p>
+            <p class="closed">Sunday: CLOSED</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-header">
+          <h2>Join CarHut</h2>
+          <p>Receive pricing updates, shopping tips & more!</p>
+          <form class="header-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit" class="form-btn">Sign Up</button>
+          </form>
+        </div>
+        <div class="footer-body">
+          <div class="footer-links">
+            <h2>Company</h2>
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a href="#">Services</a>
+            <a href="#">FAQs</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="footer-links">
+            <h2>Quick Links</h2>
+            <a href="#">Get in Touch</a>
+            <a href="#">Help center</a>
+            <a href="#">Live chat</a>
+            <a href="#">How it works</a>
+          </div>
+          <div class="footer-links">
+            <h2>Our Brands</h2>
+            <a href="#">Toyota</a>
+            <a href="#">Porsche</a>
+            <a href="#">Audi</a>
+            <a href="#">BMW</a>
+            <a href="#">Ford</a>
+            <a href="#">Nissan</a>
+            <a href="#">Peugeot</a>
+            <a href="#">Volkswagen</a>
+          </div>
+          <div class="footer-links">
+            <h2>Vehicles Type</h2>
+            <a href="#">Sedan</a>
+            <a href="#">Hatchback</a>
+            <a href="#">SUV</a>
+            <a href="#">Hybrid</a>
+            <a href="#">Electric</a>
+            <a href="#">Coupe</a>
+            <a href="#">Truck</a>
+            <a href="#">Convertible</a>
+          </div>
+          <div class="footer-links mobile-app-col">
+            <h2>Our Mobile App</h2>
+            <div class="store-buttons">
+              <a href="#" class="store-btn">
+                <i class="fa-brands fa-apple"></i>
+                <div class="btn-text">
+                  <span>Download on the</span>
+                  <b>Apple Store</b>
+                </div>
+              </a>
+              <a href="#" class="store-btn">
+                <i class="fa-brands fa-google-play"></i>
+                <div class="btn-text">
+                  <span>Get it on</span>
+                  <b>Google Play</b>
+                </div>
+              </a>
+            </div>
+            <div class="connect-box">
+              <h2>Connect With Us</h2>
+              <div class="socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="calc-modal" class="modal-overlay">
+      <div class="modal-content">
+        <i class="fa-solid fa-xmark close-modal"></i>
+        <h2 class="calc-title">Rent Calculator</h2>
+
+        <div class="calc-group">
+          <label for="calc-select">Choose a car:</label>
+          <select id="calc-select" class="calc-select">
+            <option value="50">Toyota Camry ($50/day)</option>
+            <option value="85">BMW X5 ($85/day)</option>
+            <option value="120">Porsche 911 ($120/day)</option>
+            <option value="40">Ford Transit ($40/day)</option>
+          </select>
+        </div>
+
+        <div class="calc-group">
+          <label for="days-range">
+            Rental period <span id="days-output">1</span> day(s)
+          </label>
+          <input
+            type="range"
+            id="days-range"
+            class="calc-range"
+            min="1"
+            max="30"
+            value="1"
+          />
+        </div>
+
+        <div class="calc-total">
+          <p>Total cost: <span id="total-price">$50</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="floating-burger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
