@@ -972,7 +972,7 @@ body.no-scroll {
 
 .map-section {
   width: 100%;
-  background-image: url("./assets/map.png");
+  background-image: url("assets/map.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
